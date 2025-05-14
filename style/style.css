@@ -130,21 +130,21 @@ nav ul {
     position: relative;
 }
 
-.home_control::after{
+.home_control::after {
     content: 'Управление умным домом';
-  position: absolute;
-  width: 300px;
-  bottom: -20px;
-  text-transform: uppercase;
-  left: calc(50% - 100px);
-  color: white;
-  display: none;
-  transition:all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    width: 300px;
+    bottom: -20px;
+    text-transform: uppercase;
+    left: calc(50% - 100px);
+    color: white;
+    display: none;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.home_control:hover::after{
+.home_control:hover::after {
     display: block;
-    transition:all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .home_control img {
