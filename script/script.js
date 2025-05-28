@@ -23,6 +23,6 @@ prevBtn.addEventListener("click", () => {
 
 nextBtn.addEventListener("click", () => {
     nowrapControllersEl.scrollBy({
-        left: 100
+        left: 100,
     });
 });

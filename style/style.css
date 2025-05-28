@@ -417,9 +417,7 @@ nav ul {
     }
 }
 
-
-
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .nowrap {
         overflow-x: hidden;
     }
@@ -467,7 +465,6 @@ nav ul {
 }
 
 @media screen and (max-width: 425px) {
-
     .nav ul {
         flex-direction: column;
         align-items: center;
